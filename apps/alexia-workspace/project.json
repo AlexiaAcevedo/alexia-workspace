@@ -1,0 +1,9 @@
+{
+  "name": "alexia-workspace",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/alexia-workspace",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project alexia-workspace --web",
+  "targets": {}
+}

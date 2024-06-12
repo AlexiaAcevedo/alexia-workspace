@@ -1,0 +1,19 @@
+{
+  "name": "data-user-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/data-user-service/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/data-user-service",
+        "main": "libs/data-user-service/src/index.ts",
+        "tsConfig": "libs/data-user-service/tsconfig.lib.json",
+        "assets": ["libs/data-user-service/*.md"]
+      }
+    }
+  }
+}

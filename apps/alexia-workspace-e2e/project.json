@@ -1,0 +1,9 @@
+{
+  "name": "alexia-workspace-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/alexia-workspace-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["alexia-workspace"],
+  "// targets": "to see all targets run: nx show project alexia-workspace-e2e --web",
+  "targets": {}
+}
